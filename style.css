@@ -27,14 +27,19 @@
     overflow: hidden;
     position: fixed;
     bottom: 0;
-    width: calc(100% - 20px);
+    width: calc(100% - 10px);
     margin:6px 5px;
     border-bottom-left-radius:19px ;
     border-bottom-right-radius:19px;
     z-index: 2;
     overflow: hidden;
-    width: 100%;
+    /* justify-content: space-between; */
     
+  }
+  .content-body{
+padding-top: 45px;
+padding-bottom: 40px;
+
   }
   
   /* Style the links inside the navigation bar */
@@ -47,7 +52,7 @@
     text-decoration: none;
     font-size: 17px;
     flex-grow: 1;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
   
   /* Change the color of links on hover */
@@ -75,5 +80,5 @@
     }
   }
   @media only screen and (max-width: 600px) {
-    .bnavbar{display: block;}
+    .bnavbar{display: flex;}
   }
